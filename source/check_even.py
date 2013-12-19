@@ -5,9 +5,7 @@ if __name__ == '__main__':
     for test in test_cases:
         test.strip()
         # ignore test if it is an empty line
-        if not test:
-            pass
-        else:
+        if test:
             if int(test.strip()) % 2:
                print 0
             else:
